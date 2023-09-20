@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="my_date_time_theme" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:colorAccent">#C59E13</item>
+        <item name="android:colorControlActivated">#E1B827</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/Button.Positive</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/Button.Negative</item>
+        <item name="android:buttonBarNeutralButtonStyle">@style/Button.Neutral</item>
+    </style>
+
+    <style name="Button.Positive" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">#E1B827</item>
+    </style>
+
+    <style name="Button.Negative" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">#E1B827</item>
+    </style>
+
+    <style name="Button.Neutral" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">#E1B827</item>
+    </style>
+
+</resources>
